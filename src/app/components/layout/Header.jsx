@@ -20,7 +20,7 @@ export default function Header() {
         { label: 'Inicio', href: '#home' },
         { label: 'Sobre mí', href: '#about' },
         { label: 'Proyectos', href: '#projects' },
-        { label: 'Habilidades', href: '#skills' },
+        // { label: 'Habilidades', href: '#skills' },
         { label: 'Contacto', href: '#contact' },
     ];
 
@@ -28,7 +28,7 @@ export default function Header() {
         <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 dark:bg-dark/90 shadow-md backdrop-blur-sm' : 'bg-transparent'}`}>
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/" className="font-bold text-2xl text-primary space-x-4">
-                    YHWH
+                    
                 </Link>
 
                 {/* Desktop Nav */}

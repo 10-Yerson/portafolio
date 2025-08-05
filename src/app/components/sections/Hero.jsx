@@ -6,14 +6,14 @@ export default function Hero() {
     <section className="min-h-screen flex items-center relative overflow-hidden w-full">
       {/* Fondo con gradiente */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-teal-50 dark:from-gray-900 dark:to-blue-900 z-0"></div>
-      
+
       {/* Elementos decorativos */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-64 h-64 bg-blue-200 dark:bg-blue-700 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
         <div className="absolute top-40 right-10 w-72 h-72 bg-teal-200 dark:bg-teal-700 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
         <div className="absolute -bottom-20 left-1/2 transform -translate-x-1/2 w-80 h-80 bg-indigo-200 dark:bg-indigo-700 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </div>
-      
+
       {/* Contenido principal */}
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row items-center">
@@ -21,12 +21,14 @@ export default function Hero() {
             <span className="inline-block py-1 px-3 rounded-full bg-blue-100 dark:bg-gray-900 text-gray-800 dark:text-blue-200 text-sm font-medium mb-4">
               Desarrollador Web
             </span>
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-6">
               Hola, soy <br />
               <span className="text-primary">Yerson Dreyer</span>
             </h1>
+
+
             <p className="text-lg md:text-xl mb-8 text-gray-700 dark:text-gray-300">
-              Especialista en desarrollo web front-end con experiencia en Next.js, React y Tailwind CSS. Creando experiencias digitales modernas y funcionales.
+              Apasionado en desarrollo web front-end con experiencia en Next.js, React y Tailwind CSS. Creando experiencias digitales modernas y funcionales.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="#projects" className="px-6 py-3 bg-primary hover:bg-primary/90 text-gray-800 font-medium rounded-lg transition-colors">
@@ -37,21 +39,20 @@ export default function Hero() {
               </Link>
             </div>
           </div>
-          
+
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-72 h-72 md:w-96 md:h-96">
               {/* Reemplaza con tu imagen de perfil */}
               <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 overflow-hidden shadow-xl">
-                <Image 
-                  src="/profile-placeholder.jpg" 
-                  alt="Tu Nombre" 
-                  width={400} 
-                  height={400} 
-                  className="object-cover"
+                <img
+                  src="/Profile.jpg"
+                  alt="Tu Nombre"
+
+                  className="object-cover h-full"
                   priority
                 />
               </div>
-              
+
               {/* Elementos decorativos alrededor de la imagen */}
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-yellow-200 dark:bg-yellow-600 rounded-lg rotate-12 flex items-center justify-center shadow-lg">
                 <span className="text-3xl">💻</span>
@@ -63,7 +64,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      
+
       {/* Flecha de desplazamiento */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <Link href="#about" aria-label="Desplazar hacia abajo">
