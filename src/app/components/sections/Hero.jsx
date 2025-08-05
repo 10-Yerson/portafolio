@@ -28,7 +28,7 @@ export default function Hero() {
 
 
             <p className="text-lg md:text-xl mb-8 text-gray-700 dark:text-gray-300">
-              Apasionado en desarrollo web front-end con experiencia en Next.js, React y Tailwind CSS. Creando experiencias digitales modernas y funcionales.
+              Apasionado en desarrollo web front-end con formación en Next.js, React y Tailwind CSS. Creando experiencias digitales modernas y funcionales.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="#projects" className="px-6 py-3 bg-primary hover:bg-primary/90 text-gray-800 font-medium rounded-lg transition-colors">
